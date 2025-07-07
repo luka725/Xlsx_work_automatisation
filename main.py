@@ -14,4 +14,5 @@ df = df.drop(['Balance', 'Document_Date', 'Document_Number', "Partner's_Bank", '
 for index, row in df.iterrows():
     row = row.fillna(0)  # Fill NaN values with 0
 
-df.to_excel("./data/my excel.xlsx", index=False, sheet_name='Sheet1')
+print(df["Paid_In"])  # Displaying the column names of the dataframe
+

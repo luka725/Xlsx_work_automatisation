@@ -16,4 +16,4 @@ dataframe.drop(columns=["Date"], inplace=True)
 
 dataframe.to_excel("./data/accounting_sample.xlsx", index=False)
 
-
+p
